@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Navigation() {
+export default function Navigation() {
+    return(
+        <div name="home" className="w-full bg-gradient-to-b from-cyan-500 to-indigo-500">
+            <div>
 
-    return (
-        <div>
-            <nav>
-                
-            </nav>
+            </div>
         </div>
     )
 }
-
-export default Navigation

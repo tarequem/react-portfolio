@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -9,9 +9,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,5 +51,5 @@
   "bugs": {
     "url": "https://github.com/tarequem/react-portfolio/issues"
   },
-  "homepage": "https://github.com/tarequem/react-portfolio#readme"
+  "homepage": "http://tarequem.github.io/react-portfolio"
 }
