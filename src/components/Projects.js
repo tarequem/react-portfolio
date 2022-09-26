@@ -58,38 +58,38 @@ export default function Projects() {
             alt: "Social Network API",
             desc: "This program uses MongoDB to handle and structure social network data."
         },
-        {
-            id: 7,
-            title: "Team Profile Generator",
-            repository: "https://github.com/tarequem/team-profile-generator",
-            src: TeamProfileGen,
-            alt: "Team Profile Generator",
-            desc: "The intended purpose for this project was to demonstrate the use of OOP and TDD with Jest. This application was designed to generate a team profile with each member's basic info using user input through the Inquirer module. This information will be displayed onto a generated HTML page."
-        },
-        {
-            id: 8,
-            title: "Weather Dashboard",
-            repository: "https://github.com/tarequem/weather-dashboard",
-            src: WeatherDashboard,
-            alt: "Weather Dashboard",
-            desc: "The purpose for this application is to have the user search for cities to find out the weather forecast. On the top left, the user will enter a city and will see its weather forecast after clicking search. Every city searched will be displayed below the search bar as a clickable button which will persist. When the previously searched cities are clicked, the application will return the weather data of that city."
-        },
+        // {
+        //     id: 7,
+        //     title: "Team Profile Generator",
+        //     repository: "https://github.com/tarequem/team-profile-generator",
+        //     src: TeamProfileGen,
+        //     alt: "Team Profile Generator",
+        //     desc: "The intended purpose for this project was to demonstrate the use of OOP and TDD with Jest. This application was designed to generate a team profile with each member's basic info using user input through the Inquirer module. This information will be displayed onto a generated HTML page."
+        // },
+        // {
+        //     id: 8,
+        //     title: "Weather Dashboard",
+        //     repository: "https://github.com/tarequem/weather-dashboard",
+        //     src: WeatherDashboard,
+        //     alt: "Weather Dashboard",
+        //     desc: "The purpose for this application is to have the user search for cities to find out the weather forecast. On the top left, the user will enter a city and will see its weather forecast after clicking search. Every city searched will be displayed below the search bar as a clickable button which will persist. When the previously searched cities are clicked, the application will return the weather data of that city."
+        // },
     ]
     return(
         <section name="projects" className="h-screen w-full bg-gradient-to-b from-cyan-500 to-indigo-500">
-            <div className="max-w-screen-lg mx-auto flex flex-col items-left justify-center h-full px-4 md:flex-col ">
+            <div className="mx-auto flex flex-col items-left justify-center h-full px-4 md:flex-col ">
                 <div>
                     <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">
                         My Previous Work
                     </h1>
-                    <h3>Click on the image to view repository</h3>
+                    <h2 className="text-white">Click on the image to view repository</h2>
                 </div>
                 <div className="grid md:grid-cols-3 gap-5 px-12">
                     {projects.map(({ id, title, src, desc, alt, repository }) => (
-                        <div key={id} className="rounded-2xl shadow-2xl shadow-gray-300 border-zinc-400">
-                            <h4 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">{title}</h4>
-                            <img className="hover:scale-150 duration-75 " src={src} alt={alt} href={repository} />
-                            <p className="text-sm">{desc}</p>
+                        <div key={id} className="rounded-xl shadow-xl shadow-gray-300 border-zinc-400">
+                            <h4 className="italic font-extrabold text-transparent text-1xl bg-clip-text text-black">{title}</h4>
+                            <a href={repository}><img className="bg-contain bg-center hover:scale-110 duration-75" src={src} alt={alt} /></a>
+                            <p className="text-m text-white">{desc}</p>
                         </div>
                     ))}
                 </div>
