@@ -78,7 +78,7 @@ export default function Projects() {
     return(
         <section name="projects" className="h-screen w-full bg-gradient-to-b from-cyan-500 to-indigo-500">
             <div className="mx-auto flex flex-col items-left justify-center h-full px-4 md:flex-col ">
-                <div>
+                <div className="text-center">
                     <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">
                         My Previous Work
                     </h1>
@@ -86,7 +86,7 @@ export default function Projects() {
                 </div>
                 <div className="grid md:grid-cols-3 gap-5 px-12">
                     {projects.map(({ id, title, src, desc, alt, repository }) => (
-                        <div key={id} className="rounded-xl shadow-xl shadow-gray-300 border-zinc-400">
+                        <div key={id} className="w-3/4 rounded-xl shadow-xl shadow-gray-300 border-zinc-400">
                             <h4 className="italic font-extrabold text-transparent text-1xl bg-clip-text text-black">{title}</h4>
                             <a href={repository}><img className="bg-contain bg-center hover:scale-110 duration-75" src={src} alt={alt} /></a>
                             <p className="text-m text-white">{desc}</p>
