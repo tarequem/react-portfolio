@@ -28,7 +28,7 @@ export default function Socials() {
         },
     ];
     return(
-        <section name="socials" className="flex justify-between items-center text-white bg-gradient-to-b from-cyan-500 to-indigo-500">
+        <section name="socials" className="flex justify-between items-center w-full h20 px-4 text-white bg-gradient-to-b from-cyan-500 to-indigo-500 fixed">
                     <div className="relative flex items-center justify-between sm:h-10 lg:justify-start">
                         <ul className="flex flex-row justify-center items-center absolute top-0 left-0 bg-gradient-to-b from-cyan-500 to-indigo-500 text-white">
                             {links.map(({ id, child, href }) => (

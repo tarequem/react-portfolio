@@ -16,7 +16,7 @@ export default function Projects() {
             repository: "https://github.com/tarequem/humble",
             src: Humble,
             alt: "Humble",
-            desc: "Feeling overconfident? Looking for construcive criticism or a good roasting? Humble yourself on Humble!"
+            desc: "Feeling overconfident? Looking for constructive criticism or a good roasting? Humble yourself on Humble!"
         },
         {
             id: 2,
