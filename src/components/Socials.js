@@ -24,7 +24,7 @@ export default function Socials() {
         {
             id: 4,
             child: (<li>Resume <BsFillPersonLinesFill size={20} /></li>),
-            href: "https://drive.google.com/file/d/1NYMK97k4iSs0Sm1CVPJu3-vJblHloqtb/view?usp=sharing"
+            href: "https://drive.google.com/file/d/1V6iXbEjVcaTcd0Bfo5L3qz2p7rj5PwNv/view?usp=sharing"
         },
     ];
     return(
