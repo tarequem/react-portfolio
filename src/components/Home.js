@@ -1,11 +1,18 @@
 import React from "react";
+import Profile from "../assets/profile.png"
 
 export default function Home() {
 
     return(
         <section name="home" className="h-screen w-full bg-gradient-to-b from-cyan-500 to-indigo-500">
             <div className="max-w-screen-lg mx-auto flex flex-col items-left justify-center h-full px-4 md:flex-col ">
-                <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">
+                <img
+                src={Profile}
+                alt="Profile"
+                className="rounded-2xl mx-auto w-2/3 md:w-1/4"
+                />
+                <br />
+                <h1 className="italic font-extrabold text-transparent text-center text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">
                 Welcome to my Portfolio
                 </h1>
                 <p className="text-white">

@@ -8,36 +8,34 @@ export default function Socials() {
     const links = [
         {
             id: 1,
-            child: (<li>GitHub <FaGithub size={10} /></li>),
+            child: (<li>GitHub <FaGithub size={20} /></li>),
             href: "https://github.com/tarequem"
         },
         {
             id: 2,
-            child: (<li>Linkedin <FaLinkedin size={10} /></li>),
+            child: (<li>Linkedin <FaLinkedin size={20} /></li>),
             href: "https://www.linkedin.com/in/tareque-moatar-4286766a/"
         },
         {
             id: 3,
-            child: (<li>Email <HiOutlineMail size={10} /></li>),
+            child: (<li>Email <HiOutlineMail size={20} /></li>),
             href: "mailto:moatartareque@gmail.com"
         },
         {
             id: 4,
-            child: (<li>Resume <BsFillPersonLinesFill size={10} /></li>),
+            child: (<li>Resume <BsFillPersonLinesFill size={20} /></li>),
             href: "https://drive.google.com/file/d/1NYMK97k4iSs0Sm1CVPJu3-vJblHloqtb/view?usp=sharing"
         },
     ];
     return(
-        <section name="socials" className="flex justify-between items-center w-full h20 px-4 text-white bg-gradient-to-b from-cyan-500 to-indigo-500 fixed">
-                    <div className="relative flex items-center justify-between sm:h-10 lg:justify-start">
-                        <ul className="flex flex-row justify-center items-center absolute top-0 left-0 bg-gradient-to-b from-cyan-500 to-indigo-500 text-white">
+        <section name="socials" className="relative flex justify-center sm:h-15 h20 px-4 text-white bg-gradient-to-b from-cyan-500 to-indigo-500">
+                        <ul className="flex flex-row">
                             {links.map(({ id, child, href }) => (
-                                <li key={id}>
+                                <li className="m-1" key={id}>
                                     <a href={href}>{child}</a>
                                 </li>
                             ))}
                         </ul>
-                    </div>
         </section>
     )
 }
