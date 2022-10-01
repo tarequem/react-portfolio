@@ -72,9 +72,9 @@ export default function Skills() {
         },
     ]
     return(
-        <section name="skills" className="h-screen w-full bg-gradient-to-b from-cyan-500 to-indigo-500 items-center">
+        <section name="skills" className="h-screen w-full bg-black items-center">
             <div className="text-center">
-                <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">Skills</h1>
+                <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-white">Skills</h1>
             </div>
             <div className="max-w-screen-lg mx-auto items-center h-full grid md:grid-cols-4 gap-3">
                 {skills.map(({ id, src, alt, label }) => (

@@ -28,7 +28,7 @@ export default function Socials() {
         },
     ];
     return(
-        <section name="socials" className="relative flex justify-center sm:h-15 h20 px-4 text-white bg-gradient-to-b from-cyan-500 to-indigo-500">
+        <section name="socials" className="relative flex justify-center sm:h-15 h20 px-4 text-white bg-black">
                         <ul className="flex flex-row">
                             {links.map(({ id, child, href }) => (
                                 <li className="m-1" key={id}>

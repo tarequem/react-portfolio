@@ -33,7 +33,7 @@ export default function Header() {
     ];
     //change the tailwind styling below
     return(
-        <section name="navigation" className="flex justify-between items-center w-full h20 px-4 text-white bg-gradient-to-b from-cyan-500 to-indigo-500 fixed">
+        <section name="navigation" className="flex justify-between items-center w-full h20 px-4 text-white bg-black fixed">
             <div>
                 <h1 className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">Tareque Moatar's Portfolio</h1>
             </div>

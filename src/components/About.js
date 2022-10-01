@@ -3,10 +3,10 @@ import React from "react";
 export default function About() {
     
     return(
-        <section name="about" className="h-screen w-full bg-gradient-to-b from-cyan-500 to-indigo-500">
+        <section name="about" className="h-screen w-full bg-black">
             <div className="max-w-screen-lg mx-auto flex flex-col items-left justify-center h-full px-4 md:flex-col">
                 <div>
-                    <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gray-400 to-white">
+                    <h1 className="italic font-extrabold text-transparent text-5xl bg-clip-text bg-white">
                         About Me
                     </h1>
                 </div>
