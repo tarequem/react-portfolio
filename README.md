@@ -1,3 +1,28 @@
+# React-Portfolio 
+## Table of Contents 
+[Description](#description)
+
+[Deployed website](#deployed-website)
+  
+[Contact Info](#contact-info)
+
+[Getting Started with Create React App](#available-scripts)
+
+## Screenshot:
+![screenshot](/snapshot.png)
+
+## Description:
+This react app demonstrates my skills of Tailwind CSS and React Js to showcase my portfolio. 
+
+## Deployed Website:
+[Heroku link](https://tarequem-portfolio.herokuapp.com/). 
+
+## Contact Info:
+- Github: [tarequem](https://github.com/tarequem)
+- Email: moatartareque@gmail.com 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
