@@ -4,7 +4,7 @@ import ChargeItUp from "../assets/chargeitup.png";
 import TechBlog from "../assets/techblog.png";
 import NoteTaker from "../assets/notetaker.png";
 import ECommerce from "../assets/ecommerce.gif";
-import SocialNetworkAPI from "../assets/social-network-api.gif";
+import Globber from "../assets/globber.png";
 import TeamProfileGen from "../assets/teamprofilegen.png";
 import WeatherDashboard from "../assets/weatherdashboard.png";
 
@@ -52,11 +52,11 @@ export default function Projects() {
         },
         {
             id: 6,
-            title: "Social Network API",
-            repository: "https://github.com/tarequem/social-network-api",
-            src: SocialNetworkAPI,
-            alt: "Social Network API",
-            desc: "This program uses MongoDB to handle and structure social network data."
+            title: "Globber",
+            repository: "https://github.com/tarequem/globber",
+            src: Globber,
+            alt: "Globber",
+            desc: "This program uses MERN and Socket.IO to create a chat client that users can register and log in to join a public chat box."
         },
         // {
         //     id: 7,
